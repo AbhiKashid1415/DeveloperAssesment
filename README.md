@@ -18,10 +18,8 @@ Implementation:
 6)Implemented the Repository Pattern and Service Layer to follow clean architecture principles.
 
 7)Created API endpoints to:
-
-     Get books sorted by Publisher → Author (First, Last) → Title.
-
-     Get books sorted by Author (First, Last) → Title.
+    Get books sorted by Publisher → Author (First, Last) → Title.
+    Get books sorted by Author (First, Last) → Title.
 
 8)Implemented the same sorting logic using Stored Procedures.
 

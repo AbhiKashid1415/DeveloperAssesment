@@ -1,6 +1,6 @@
 #Developer Assessment
 
-This is a .NET Core Web API project built using ASP.NET Core  and Entity Framework Core with a Code First approach, designed to manage book-related data. The application follows RESTful principles and connects to a SQL Server database.
+This is a .NET Core Web API Assessment using ASP.NET Core  and Entity Framework Core with a Code First approach, designed to manage book-related data. The application follows RESTful principles and connects to a SQL Server database.
 
 
 Implementation:

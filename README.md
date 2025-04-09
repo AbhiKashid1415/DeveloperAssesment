@@ -3,7 +3,7 @@
 This is a .NET Core Web API project built using ASP.NET Core  and Entity Framework Core with a Code First approach, designed to manage book-related data. The application follows RESTful principles and connects to a SQL Server database.
 
 
-Steps:
+Implementation:
 
 1)Developed a .NET Core Web API using MVC architecture.
 

@@ -1,4 +1,4 @@
-﻿-- Stored Procedure 1: Sort by Publisher, Author, Title
+﻿
 CREATE PROCEDURE GetBooksSortedByPublisherAuthorTitle
 AS
 BEGIN
@@ -7,7 +7,7 @@ BEGIN
 END;
 GO
 
--- Stored Procedure 2: Sort by Author, Title
+
 CREATE PROCEDURE GetBooksSortedByAuthorTitle
 AS
 BEGIN

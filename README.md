@@ -1,6 +1,6 @@
 #Developer Assessment
 
-This is a .NET Core Web API project built using ASP.NET Core  and Entity Framework Core with a Code First approach, designed to manage book-related data. The application follows RESTful principles and connects to a SQL Server database.
+This is a .NET Core Web API Assessment using ASP.NET Core  and Entity Framework Core with a Code First approach, designed to manage book-related data. The application follows RESTful principles and connects to a SQL Server database.
 
 
 Implementation:
@@ -18,10 +18,8 @@ Implementation:
 6)Implemented the Repository Pattern and Service Layer to follow clean architecture principles.
 
 7)Created API endpoints to:
-
-     Get books sorted by Publisher → Author (First, Last) → Title.
-
-     Get books sorted by Author (First, Last) → Title.
+        i)Get books sorted by Publisher → Author (First, Last) → Title.
+        ii)Get books sorted by Author (First, Last) → Title.
 
 8)Implemented the same sorting logic using Stored Procedures.
 

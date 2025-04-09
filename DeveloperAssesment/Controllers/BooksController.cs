@@ -17,32 +17,45 @@ namespace DeveloperAssesment.Controllers
         }
 
         [HttpGet("Sorted books by publisher")]
-        public async Task<IActionResult> GetSortedByPublisher() =>
-        Ok(await repo.GetSortedByPublisherAsync());
+        public async Task<IActionResult> GetSortedByPublisher()
+        {
+            return Ok(await repo.GetSortedByPublisher());
+        }
+        
 
         [HttpGet("Books sorted by author")]
-        public async Task<IActionResult> GetSortedByAuthor() =>
-            Ok(await repo.GetSortedByAuthorAsync());
-
+        public async Task<IActionResult> GetSortedByAuthor()
+        {
+            return Ok(await repo.GetSortedByAuthor());
+        }
+            
         [HttpGet("Total Price")]
-        public async Task<IActionResult> GetTotalPrice() =>
-            Ok(await repo.GetTotalPriceAsync());
+        public async Task<IActionResult> GetTotalPrice() 
+        {
+            return Ok(await repo.GetTotalPrice());
+        }
+           
 
         [HttpPost("Add Multiple Books")]
         public async Task<IActionResult> AddBooks([FromBody] IEnumerable<Book> books)
         {
-            await repo.AddBooksAsync(books);
+            await repo.AddBooks(books);
             return Ok();
         }
 
 
         [HttpGet("stored procedure sort by publisher")]
-        public async Task<IActionResult> GetFromStoredProc1() =>
-            Ok(await repo.GetByStoredProc1Async());
+        public async Task<IActionResult> GetFromStoredProc1()
+        {
+            return Ok(await repo.GetByStoredProc1());
+        }
 
         [HttpGet("stored procedure sort by author")]
-        public async Task<IActionResult> GetFromStoredProc2() =>
-            Ok(await repo.GetByStoredProc2Async());
+        public async Task<IActionResult> GetFromStoredProc2()
+        {
+            return Ok(await repo.GetByStoredProc2());
+        }
+            
 
     }
 }

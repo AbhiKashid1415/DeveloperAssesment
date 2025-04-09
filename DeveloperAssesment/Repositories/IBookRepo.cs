@@ -4,12 +4,12 @@ namespace DeveloperAssesment.Repositories
 {
     public interface IBookRepo
     {
-        Task<IEnumerable<Book>> GetSortedByPublisherAsync();
-        Task<IEnumerable<Book>> GetSortedByAuthorAsync();
-        Task<decimal> GetTotalPriceAsync();
-        Task AddBooksAsync(IEnumerable<Book> books);
-        Task<IEnumerable<Book>> GetByStoredProc1Async();
-        Task<IEnumerable<Book>> GetByStoredProc2Async();
+        Task<IEnumerable<Book>> GetSortedByPublisher();
+        Task<IEnumerable<Book>> GetSortedByAuthor();
+        Task<decimal> GetTotalPrice();
+        Task AddBooks(IEnumerable<Book> books);
+        Task<IEnumerable<Book>> GetByStoredProc1();
+        Task<IEnumerable<Book>> GetByStoredProc2();
 
     }
 }
